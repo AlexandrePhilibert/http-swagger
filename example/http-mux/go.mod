@@ -1,9 +1,9 @@
-module github.com/swaggo/http-swagger/example/http-mux
+module github.com/AlexandrePhilibert/http-swagger/example/http-mux
 
 go 1.22.2
 
 require (
-	github.com/swaggo/http-swagger/v2 v2.0.2
+	github.com/AlexandrePhilibert/http-swagger/v2 v2.0.0
 	github.com/swaggo/swag v1.16.3
 )
 

@@ -122,7 +122,7 @@ func performRequest(method, target string, h http.Handler) *httptest.ResponseRec
 func TestURL(t *testing.T) {
 	var cfg *Config
 
-	expected := "https://github.com/swaggo/http-swagger"
+	expected := "https://github.com/AlexandrePhilibert/http-swagger"
 	cfg = newConfig(URL(expected))
 	assert.Equal(t, expected, cfg.URL)
 }
